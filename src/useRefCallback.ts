@@ -10,9 +10,6 @@ export function useRefCallback<T = undefined>(
   callback: Callback<MutableRefObject<T | undefined>>,
 ): MutableRefObject<T | undefined>
 
-/**
- * Callback is fired when .current changes with a new value (checked via Object.is)
- */
 export function useRefCallback<T>(
   callback: Callback<MutableRefObject<T | null | undefined>>,
   initialValue?: T | null,
