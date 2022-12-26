@@ -21,6 +21,8 @@ There are two hooks for you: [useReactiveRef](#usereactiveref) and [useRefCallba
 Rendering starts when `.current` changes with a new value (checked via `Object.is`).
 
 ```tsx
+import { useReactiveRef } from 'reactive-ref'
+
 const IHandleThirdPartyLibSadly = () => {
   // Types and usage are completely identical to useRef.
   // You can literally just add "Reactive" after "use" in your current code!
@@ -42,6 +44,8 @@ const IHandleThirdPartyLibSadly = () => {
 Callback is fired when `.current` changes with a new value (checked via `Object.is`).
 
 ```tsx
+import { useRefCallback } from 'reactive-ref'
+
 const IHandleThirdPartyLibSadlyAgain = () => {
   // The first argument is a callback.
   // The second argument is a initial value.
