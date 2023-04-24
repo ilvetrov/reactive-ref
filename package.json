@@ -1,6 +1,6 @@
 {
   "name": "reactive-ref",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React hooks for reactive work with refs",
   "author": "ilvetrov",
   "license": "Apache-2.0",
