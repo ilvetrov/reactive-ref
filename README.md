@@ -1,4 +1,6 @@
-# reactive-ref
+<p>
+  <img src="https://raw.githubusercontent.com/ilvetrov/reactive-ref/main/logo.svg" width="200" height="47" />
+</p>
 
 React hooks for reactive work with refs.
 
